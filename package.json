@@ -26,10 +26,8 @@
   "bugs": {
     "url": "https://github.com/firuza/test-release/issues"
   },
+  "release": {
+    "branches": ["main"]
+  },
   "homepage": "https://github.com/firuza/test-release#readme"
-}
-{
-"release": {
-  "branches": ["main"]
-}
 }
