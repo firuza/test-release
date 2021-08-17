@@ -30,5 +30,10 @@
     "branches": ["main"]
   },
   "private": true,
+  "files": [
+    "CHANGELOG.md",
+    "package.json",
+    "package-lock.json"
+  ],  
   "homepage": "https://github.com/firuza/test-release#readme"
 }
