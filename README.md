@@ -6,7 +6,7 @@
 
 
 * Initialize npm
-  * ```npm init -y```
+  ```npm init -y```
 
 * Intall semantic-release and plugins. Click [here](https://semantic-release.gitbook.io/semantic-release/extending/plugins-list) to view all plugins
     ```
