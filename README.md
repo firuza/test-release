@@ -101,3 +101,5 @@
 * https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
 
 * https://dev.to/kouts/automated-versioning-and-package-publishing-using-github-actions-and-semantic-release-1kce
+
+* https://github.com/semantic-release/commit-analyzer#release-rules
