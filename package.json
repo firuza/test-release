@@ -28,3 +28,8 @@
   },
   "homepage": "https://github.com/firuza/test-release#readme"
 }
+{
+"release": {
+  "branches": ["main"]
+}
+}
