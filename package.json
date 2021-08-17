@@ -29,5 +29,6 @@
   "release": {
     "branches": ["main"]
   },
+  "private": true,
   "homepage": "https://github.com/firuza/test-release#readme"
 }
