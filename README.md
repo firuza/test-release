@@ -2,7 +2,7 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-## Installation
+## Installation and Configuration
 
 
 * Initialize npm
@@ -89,6 +89,13 @@
     * Click ```Secrets``` > ```New repository secret```  
     * Write the name as NPM_TOKEN and the value as the token generated above.
     * Click Add secret
+
+* Configure custom type and scope
+  To configure a type and scope of your choice, modify the ```releaseRules``` under ```semantic-release/commit-analyzer``` in the ```release.config.js``` file accordingly. For example, by adding the following rule, the commit with type ```docs``` and scope ```README``` will be released as a patch release.
+  ```{"type": "docs", "scope":"README", "release": "patch"},```
+
+  The example commit message would be:
+  ```docs(README): installation instructions updated```
 
 ## References
 * https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
