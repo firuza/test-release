@@ -92,9 +92,11 @@
 
 * Configure custom type and scope
   To configure a type and scope of your choice, modify the ```releaseRules``` under ```semantic-release/commit-analyzer``` in the ```release.config.js``` file accordingly. For example, by adding the following rule, the commit with type ```docs``` and scope ```README``` will be released as a patch release.
+
   ```{"type": "docs", "scope":"README", "release": "patch"},```
 
   The example commit message would be:
+ 
   ```docs(README): installation instructions updated```
 
 ## References
