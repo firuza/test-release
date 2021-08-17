@@ -88,3 +88,7 @@
     * Write the name as NPM_TOKEN and the value as the token generated above.
     * Click Add secret
 
+## References
+* https://www.wizeline.com/blog-continuous-deployment-with-semantic-release-and-github-actions/
+
+* https://dev.to/kouts/automated-versioning-and-package-publishing-using-github-actions-and-semantic-release-1kce
