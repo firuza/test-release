@@ -13,7 +13,9 @@ module.exports = {
       }
     }],
     "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md"
+    }],
     ["@semantic-release/npm", {
       "tarballDir": "release"
     }],
